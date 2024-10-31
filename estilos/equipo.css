@@ -1,0 +1,72 @@
+header {
+    background-color: rgba(189, 43, 226, 0.24);
+    margin: -8px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    color: #4A0D73;
+}
+
+/* Contenedor equipo de apoyo*/
+/* Contenedor principal */
+.container-team{
+    padding: 50px 20px;
+    background-color: #f5f5f5; /* Fondo suave */
+    text-align: center;
+}
+
+/* Texto principal */
+.container-text h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Contenedor de empleados */
+.employees-container {
+    display: flex;
+    justify-content: space-around; /* Espaciado entre los elementos */
+    flex-wrap: wrap; /* Para que los elementos se ajusten si no hay espacio */
+    gap: 20px; /* Espacio entre cada tarjeta */
+}
+
+/* Estilo individual de cada empleado */
+.employee {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    overflow: hidden; /* Para que la imagen y el contenido estén contenidos */
+    width: 300px; /* Tamaño fijo de la tarjeta */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Animación suave al pasar sobre la tarjeta */
+}
+
+/* Hover para darle una ligera animación a las tarjetas */
+.employee:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilo de las imágenes */
+.employee img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilo de los nombres */
+.employee h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+    margin-bottom: 5px;
+}
+
+/* Estilo de los cargos */
+.employee p {
+    font-size: 16px;
+    color: #555;
+}
